@@ -1,5 +1,5 @@
 import { ApolloServer } from 'apollo-server'
-import { resolvers } from './schema'
+import { resolvers } from './resolvers'
 import { createContext } from './context'
 import { loadSchemaSync } from '@graphql-tools/load';
 import { GraphQLFileLoader } from '@graphql-tools/graphql-file-loader';
